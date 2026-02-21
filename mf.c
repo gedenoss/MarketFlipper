@@ -148,4 +148,19 @@ int main ()
     item_price = item_price - item_price * 0.06;
     benef=item_price - total_cost;
     printf("you win %f silver\n",benef);
+
+    printf("composent 1 price : %f X %d\n",compo_price1,number_of_compo1);
+    printf("composent 2 price : %f X %d\n",compo_price2,number_of_compo2);
+    printf("composent 3 price : %f X %d\n",compo_price3,number_of_compo3);
+
+    printf("composent total price : %f\n",compo_total_price);
+
+    printf("rune price : %f X %d\n",rune_price,nb_rune);
+    printf("soul price : %f X %d\n",soul_price,nb_rune);
+    printf("relic price : %f X %d\n",relic_price,nb_rune);
+
+    printf("enchant total price : %f\n",enchant_total_price);
+    printf("total price : %f\n",total_cost);
+
+    
 }
