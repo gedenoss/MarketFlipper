@@ -29,6 +29,9 @@ int main ()
     if(item_type != 1 && item_type != 2 && item_type != 3 && item_type != 4)
     {
         printf("erreur\n");
+        printf("\nPress Enter to exit...");
+        getchar();
+        getchar();
         return 0;
     }
     if (item_type == 1)
@@ -55,6 +58,9 @@ int main ()
     if(enchant_level != 0 && enchant_level != 1 && enchant_level != 2 && enchant_level != 3)
     {
         printf("erreur\n");
+        printf("\nPress Enter to exit...");
+        getchar();
+        getchar();
         return 0;
     }
     if(enchant_level == 1)
@@ -93,6 +99,9 @@ int main ()
     if(compo_needed != 2 && compo_needed != 3)
     {
         printf("erreur\n");
+        printf("\nPress Enter to exit...");
+        getchar();
+        getchar();
         return 0;
     }
 
@@ -162,5 +171,8 @@ int main ()
     printf("enchant total price : %f\n",enchant_total_price);
     printf("total price : %f\n",total_cost);
 
-    
+    printf("\nPress Enter to exit...");
+    getchar();
+    getchar();
+    return 0;
 }
