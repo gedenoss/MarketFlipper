@@ -2,26 +2,26 @@
 
 int main ()
 {
-    int item_type;
-    float item_price;
-    float benef;
+    int item_type = 0;
+    float item_price = 0;
+    float benef = 0;
 
-    int enchant_level;
+    int enchant_level = 0;
     int nb_rune = 0;
-    int compo_needed;
-    int number_of_compo1;
-    int number_of_compo2;
-    int number_of_compo3;
-    float compo_price1;
-    float compo_price2;
-    float compo_price3;
-    float compo_total_price;
-    float rune_price;
-    float soul_price;
-    float relic_price;
+    int compo_needed = 0;
+    int number_of_compo1 = 0;
+    int number_of_compo2 = 0;
+    int number_of_compo3 = 0;
+    float compo_price1 = 0;
+    float compo_price2 = 0;
+    float compo_price3 = 0;
+    float compo_total_price = 0;
+    float rune_price = 0;
+    float soul_price = 0;
+    float relic_price = 0;
     float enchant_total_price = 0;
-    float work_cost;
-    float total_cost;
+    float work_cost = 0;
+    float total_cost = 0;
 
 
     printf("item type ?\nenter 1 for one hand\nenter 2 for two hand\nenter 3 for armor or bag\nenter 4 for helmet or boot or cape or off hand\n");
